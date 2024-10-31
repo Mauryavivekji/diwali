@@ -1,0 +1,56 @@
+body {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.diwali{
+    z-index: -1;
+    height: 500px;
+    width:fit-content;
+    margin: 150px auto;
+   
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.ganesh img{
+    height: 40%;
+    width: 100%;
+    border-radius:20px ;
+
+}
+.happy{
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+   
+.wish{
+font-family: cursive;
+font-weight: 900;
+font-size: 100px;
+color: whit;
+}
+.name{
+    display: flex;
+   
+    font-size: 40px;
+    color: white;
+}
+.name img{
+    width:100px;
+}
+.laskshmiMAa img{
+    height: 40%;
+    width: 100%;
+    border-radius:20px ;  
+}
